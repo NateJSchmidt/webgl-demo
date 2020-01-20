@@ -26,14 +26,3 @@ function animate(scene: THREE.Scene, camera: THREE.PerspectiveCamera, cube: THRE
 
     renderer.render(scene, camera);
 }
-
-// animate();
-
-// function animate(): void {
-//     requestAnimationFrame(animate);
-
-//     cube.rotation.x += 0.01;
-//     cube.rotation.y += 0.01;
-
-//     renderer.render(scene, camera);
-// }
